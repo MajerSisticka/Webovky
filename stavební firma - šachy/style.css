@@ -50,7 +50,7 @@ p/* nazev service */
 }
 .section-title span /* nazev service */
 {
-  color:crimson;
+  color:rgb(0, 255, 213);
 }
 .cta
 {
@@ -269,12 +269,12 @@ top: 0;
 }
 #hero h1:nth-child(1)
 {
-  
+  animation: text_reveal_name_blue .5s ease forwards;
   animation-delay: 1s;
 }
 #hero h1:nth-child(2)
 {
-  
+  animation: text_reveal_name_blue .5s ease forwards;
   animation-delay: 2s;
 }
 #hero h1:nth-child(3)
@@ -290,7 +290,7 @@ top: 0;
   left:0;
   height:100%;
   width:0;
-  background-color:crimson;
+  background-color:rgba(0, 255, 187, 0.418);
   animation: text_reveal_box 1s ease;
   animation-delay: .3s;
 }
@@ -383,19 +383,19 @@ top: 0;
 }
 #services .service-item:nth-child(1)
 {
-  /*background-image:url(./img/camping.png); */
+  background-image:url(./img/camping.png); 
 }
 #services .service-item:nth-child(2)
 {
-  /*background-image:url(./img/team.png); */
+  background-image:url(./img/team.png); 
 }
 #services .service-item:nth-child(3)
 {
-  /*background-image:url(./img/jump.png); */
+  background-image:url(./img/jump.png); 
 }
 #services .service-item:nth-child(4)
 {
-  /*background-image:url(./img/chess.png); */
+  background-image:url(./img/chess.png); 
 }
 
 
@@ -417,9 +417,9 @@ top: 0;
  width:80px;
  margin-bottom:20px;
 }
-#services .service-item h2
+#services .service-item h1
 {
- font-size:2rem;
+ font-size:8rem;
  color:white;
  margin-bottom:10px;
  text-transform: uppercase;
@@ -430,7 +430,7 @@ top: 0;
 	text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
  color: white;
  text-align: left; 
- font-size: 1.4rem;
+ font-size: 1.75rem;
  line-height: 1.9rem;
  margin:auto;
 }
@@ -762,8 +762,17 @@ z-index: -1;
 {
   100%
   {
-   color:crimson;
-   font-weight: 500;
+   color:rgb(0, 0, 255);
+   /*font-weight: 500;*/
+   
+  }
+}
+@keyframes text_reveal_name_blue
+{
+  100%
+  {
+   color:rgb(255, 255, 0);
+   /*font-weight: 500;*/
    
   }
 }
