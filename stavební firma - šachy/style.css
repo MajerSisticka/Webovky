@@ -80,7 +80,7 @@ p/* nazev service */
 }
 .brand h1 span
 {
- color:crimson;
+ color:rgb(172, 254, 240);
 }
 /*start nav */
 #header
@@ -160,7 +160,7 @@ letter-spacing: initial;
 }
 #header .nav-list ul li:hover a 
 {
-background-color: crimson;
+background-color: rgb(0, 140, 255);
 }
 
 /*start hamburger */
@@ -380,6 +380,10 @@ top: 0;
   position:relative;
   z-index: 1;
   overflow:hidden;
+  /*vlastnosti na přispůsoboní obrázku na pozadí, nehledě na rozlišení*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #services .service-item:nth-child(1)
 {
